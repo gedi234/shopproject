@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+.marginp{
+    margin:20px;
+    font-family: 'Permanent Marker', cursive;
+    color:white;
+    -webkit-text-stroke:0.2px black;
+}
+.marginpp{
+    display:flex;
+    justify-content:flex-end;
+    margin-right: 10px;
+    font-family: 'Permanent Marker', cursive;
+    color:white;
+    
+    
+    
+}
+.green{
+    position:relative;
+    margin-right:30px;
+    width:100%;
+    height:166px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:darkslateblue;
+    transition: 0.3s ease-out;
+    color:white;
+    -webkit-text-stroke: 1px solid black;
+
+}
+.green:hover{
+    background-image:url("photos/GatorEyes.jpg");
+    transform: scale(1.027);
+}
+footer{
+    position: relative;
+}
+.tricouob{
+    position:relative;
+    width:40%;
+    
+    height:545.5px;
+    background-image:url("photos/GatorEyes.jpg");
+    margin-left:610px;
+    border:1px solid blue;
+      font-size:30px;
+
+}
+.lights{
+    width:80%;
+    margin-left:10%;
+    
+  border-top:1px solid;
+  color:white;
+}
+.photo img{
+    width: 100%;
+    height: 545px;
+    flex-shrink: 0;
+    overflow: hidden;
+
+}
+@media (min-width:768px){
+    #carouselExampleControls {
+        width:410px;
+        position:absolute;
+        margin-left:200px;
+        border:0.6px solid black;
+        
+    }
+}
+   @media (max-width:768px){
+       .tricouob{
+           margin:0px;
+           
+           width:100%;
+
+       }
+       .marginforxs{
+           display:flex;
+           justify-content: center;
+           text-align: center;
+       }
+       
+   }

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>dcskatestore project</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="contact.css" rel="stylesheet">
+    <link href="style3.css" rel="stylesheet">
+    <link href="style4.js" rel="stylesheet">
+    <link href="tricouricss.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://github.com/astrit/css.gg.git" rel="stylesheet">
+    <link rel="icon" href="photos/logo3.png">
+    <link href="style5.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+
+<body>
+    <!--Navigare -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home.html"><img src="photos/logo3.png" width="110" height="90"></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                     <li class="navbar-item">
+                        <a class="nav-link" href="home.html">Acasa</a>
+                    </li>
+                    <li class="navbar-item dropdown ">
+                        <a class="nav-link  "  role="button" href=" "
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Haine</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="tricouri.html">Tricouri</a>
+                            <a class="dropdown-item" href="hanorace.html">Hanorace</a>
+                            <a class="dropdown-item" href="camasi.html ">Camasi</a>
+                            <a class="dropdown-item" href="pantalonilungi.html ">Pantaloni lungi</a>
+                            <a class="dropdown-item" href="pantaloniscurti.html">Pantaloni scurti</a>
+                            <a class="dropdown-item" href="bluze.html">Bluze</a>
+                            
+                        </div>
+                          
+                    </li>
+                    <li class="navbar-item dropdown">
+                        <a class="nav-link " role="button" href=""
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accesorii</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="sepci.html ">Șepci</a>
+                            <a class="dropdown-item" href="rucscacuri.html ">Rucsacuri</a>
+                            <a class="dropdown-item" href="ochelari.html">Ochelari</a>
+                            <a class="dropdown-item" href="palarii.html">Palarii</a>
+                            <a class="dropdown-item" href="diverse.html">Diverse</a>
+
+                        </div>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link" href="skate.html">Skate</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link" href="snow.html">Snow</a>
+
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </nav>
+    <br>
+    <!--SideBAR MENU !!!!-->
+     <div class="container-fluid ">
+         
+         <div class="container-fluid">
+             <div class="row form">
+                 <div class="col-xs-12 col-md-5 col-lg-5  ">
+                    <div class="icon-bar">
+             
+                        <a href="" class="active"><i class="far fa-gem"></i></a> 
+                        
+                        <a href="reduceri.html"><i class="fas fa-arrow-right"></i></a>
+                        <a href="contact.html"><i class="fas fa-phone-square"></i></a>
+                        
+                        <a href="filmari.html"><i class="fas fa-video"></i></a>
+                    </div>
+
+                    <form>
+                        <label for="fname">Nume</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Numele tau...">
+                        
+                        <label for="lname">Prenume</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Prenumele tau...">
+                        
+                    
+                        <label for="subject">Mesaj</label>
+                        <textarea id="subject" name="subject" placeholder="Opinia ta..." style="height:200px"></textarea>
+                        
+                        <button name="data" type="button" class="submit4" onclick="mycorect()">Submit</button>
+                        <br><br>
+                        <p id="alert" style="color:red;"></p>
+                        <p id="alert1" style="color:green;"></p>
+                      </form>
+                      <br>
+                     
+                 </div>
+                 <div class="col-xs-12 col-md-5 col-lg-5 margini-left">
+                     <h4>Contact</h4><br>
+                     <h5>Adresa :</h5>
+                     <p>Strada Mihai Eminescu , Numar 102 , Cluj-Napoca</p>
+                     <h5>Telefon :</h5>
+                     <p>0724562341</p>
+                     <p>0714567289</p>
+                     <h5>E-mail :</h5>
+                     <b>dcskatestore@yahoo.com</b><br>
+                     <b>dcskatestoreintrebari@yahoo.com</b>
+                     
+                 </div>
+             </div>
+         </div><br><br>
+         <hr class="light-4">
+         <!--Footer-->
+         <footer>
+            <div class="container-fluid ">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <img src="photos/blackandwhite.png" class="white" ; style="width:100px; height:100px;">
+                        <hr class="light">
+                        <p>0721456321</p>
+                        <p>hshott@yahoo.com</p>
+                        <p>Strada Vulturului 48</p>
+                        <p>Floresti , Cluj</p>
+                    </div>
+                    <div class="col-md-4">
+                        <hr class="light">
+                        <h5>Ore</h5>
+                        <hr class="light">
+                        <p>Luni: 8:00-22:00</p>
+                        <p>Sambata: 10:00-16:00</p>
+                        <p>Duminica: 10:00-14:00</p>
+                    </div>
+                    <div class="col-md-4">
+                        <hr class="light-4">
+                        <h5>Romania</h5>
+                        <hr class="light">
+                        <p>335600</p>
+                        <p>335600</p>
+                        <p>335600</p>
+                        <p>335600</p>
+                    </div>
+                    <div class="col-12">
+                        <hr class="light">
+                        <h5>@dcskatestore</h5>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </footer>
+        <script>
+            function mycorect(){
+           var vnume = document.getElementById("fname").value;
+          var vprenume=document.getElementById("lname").value;
+          var vmesaj =document.getElementById("subject").value;
+          
+          
+          
+          if(vmesaj=="")
+          {
+              if(vprenume="")
+          {
+              if(vnume="")
+              {
+                  
+              }
+            
+        }
+        return document.getElementById("alert").innerHTML="*Completeza campurile de mai sus";
+    }
+    else{
+                return document.getElementById("alert").innerHTML="<p style='color:green'>*Multumim pentru feedback</p>";
+            }
+        }
+          
+        
+        </script>
+    </body>
+    </html>

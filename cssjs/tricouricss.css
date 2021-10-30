@@ -1,0 +1,28 @@
+.card:hover{
+    background-color:purple;
+}
+.card{  
+    
+    transition: 0.3s ease-out;
+    animation-name: element;
+    animation-duration: 2s;
+   
+}
+.icon-bar{
+    animation-name: element;
+    animation-duration: 2s;
+}
+.link
+{
+   color:black;
+   text-decoration: none; 
+   background-color: none;
+}
+.navbar{
+    animation-name: element;
+    animation-duration: 2s;
+}
+@keyframes element{
+    0%{}
+    100%{opacity:none;}
+}
